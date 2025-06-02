@@ -2,8 +2,8 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 import 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
 
 // Supabase init
-const supabaseUrl = "https://your-project.supabase.co";
-const supabaseKey = "your-anon-key";
+const supabaseUrl = "https://jwbxmumtwucyeilrtugk.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3YnhtdW10d3VjeWVpbHJ0dWdrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4ODUzNjUsImV4cCI6MjA2NDQ2MTM2NX0.bZkqSZwwNToXlF5ik7w2fw1NyaIj-ShHcGPLD7KEuiU";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Telegram Mini App init
